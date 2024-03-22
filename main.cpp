@@ -12,7 +12,8 @@ int main()
     alarmLed = OFF;
 
     //Augusto: Agrego el printf
-    printf("%s\n", "Hello World!");
+    //Lucas: cambio contenido de printf
+    printf("%s\n", "Hello we are Lucas and Augusto!");
 
     while (true) {
         if ( gasDetector == ON ) {
