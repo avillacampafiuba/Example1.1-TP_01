@@ -11,6 +11,8 @@ int main()
 
     alarmLed = OFF;
 
+    printf("%s\n", "Hello World!");
+
     while (true) {
         if ( gasDetector == ON ) {
             alarmLed = ON;
