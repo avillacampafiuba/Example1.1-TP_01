@@ -11,7 +11,7 @@ int main()
 
     alarmLed = OFF;
 
-    //Augusto: Agrego el printf
+    //Augusto: Agrego el printf.
     //Lucas: cambio contenido de printf
     printf("%s\n", "Hello we are Lucas and Augusto!");
 
