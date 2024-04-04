@@ -7,7 +7,8 @@ int main()
 
     DigitalOut alarmLed(LED1);
 
-    gasDetector.mode(PullDown);
+    //Augusto: 4/4/24 -> Cambié a PullUp. COnectando un pulsador entre D2 y GND puedo cambiar el estado del LED
+    gasDetector.mode(PullUp);
 
     alarmLed = OFF;
 
